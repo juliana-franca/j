@@ -1,0 +1,28 @@
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    padding: 1em;
+    }
+    .container{
+    display: flex;
+    align-items: center;
+    }
+    .container imagem, .container frase{
+    padding: 1em;
+    }
+    .container titulo, .container frase{
+    display:none;
+    }
+
+
+
+
+    @media screen {min-width:  820px) {
+        .container__titulo, .container__titulo--negrito {
+            font-size: 30px;
+        }   
+        
+        .containr__titulo {
+            font-weight: 400;
+            display:block
+        }
+    }            
